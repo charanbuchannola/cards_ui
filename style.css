@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .card {
+  width: 400px;
+  height: 450px;
+  padding: 2em 2em;
+  margin: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: white;
+}
+main .card .div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .card .div1 button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+main .card .div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+main .card .div2 img {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .card .div2 h1 {
+  font-size: 1.3em;
+}
+main .card .div2 h2 {
+  font-size: 0.8em;
+  color: rgb(124, 124, 233);
+}
+main .card .div2 h3 {
+  font-size: 1em;
+  color: blue;
+}
+main .card .div3 {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+main .card .div3 button {
+  padding: 10px 20px;
+  font-size: 10px;
+  color: black;
+  border: none;
+  border: 1px solid rgb(99, 99, 227);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+main .card .div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+}
+main .card .div4 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .card .div4 h1 {
+  font-size: 1em;
+  border-top: 1px solid rgb(130, 130, 232);
+  padding-top: 0.7em;
+  width: 100%;
+}
+main .card .div4 h1:hover {
+  cursor: pointer;
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */
